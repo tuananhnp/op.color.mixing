@@ -1,0 +1,33 @@
+:root {
+  --picked-1st-color: #FF0000;
+  --picked-2nd-color: #00FFFF;
+}
+
+#all {
+	margin: 0 auto;
+	text-align: center;
+}
+.green {
+	display: inline-block;
+	height: 1px;
+	width: 1px;
+  background-color: var(--picked-1st-color);
+}
+.yellow {
+	display: inline-block;
+	height: 1px;
+	width: 1px;
+  background-color: var(--picked-2nd-color);
+}
+#first {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	height: 1px;
+}
+#second {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	height: 1px;
+}
